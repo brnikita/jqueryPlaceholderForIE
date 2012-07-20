@@ -1,4 +1,4 @@
 jqueryPlaceholderForIE
 ======================
 
-Placeholder for ie
+Simple Jquery plagin for adding placeholder to ie.
