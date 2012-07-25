@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function windowEventListener(event,handler,capture){
+            return document.addEventListener.apply(window,arguments);
+        }
+
+
+        function eventHandler(){
+            console.log("Hello!!!");
+        }
+
+
+        windowEventListener("click",eventHandler);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
